@@ -1,0 +1,1 @@
+run -d --net=host --name=kafka -e KAFKA_ZOOKEEPER_CONNECT=localhost:22181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:29092 -e KAFKA_ADVERTISED_LISTENER=PLAINTEXT://localhost:29092 confluentinc/cp-kafka:latest
